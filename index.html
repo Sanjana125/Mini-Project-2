@@ -58,41 +58,7 @@
       web3.eth.defaultAccount = web3.eth.accounts[0];
 
       // Set Contract Abi
-      var contractAbi = [
-      [
-	{
-		"inputs": [
-			{
-				"internalType": "string",
-				"name": "_name",
-				"type": "string"
-			}
-		],
-		"name": "setCandidate",
-		"outputs": [],
-		"stateMutability": "nonpayable",
-		"type": "function"
-	},
-	{
-		"inputs": [],
-		"stateMutability": "nonpayable",
-		"type": "constructor"
-	},
-	{
-		"inputs": [],
-		"name": "candidateName",
-		"outputs": [
-			{
-				"internalType": "string",
-				"name": "",
-				"type": "string"
-			}
-		],
-		"stateMutability": "view",
-		"type": "function"
-	}
-]
-]; // Add Your Contract ABI here!!!
+      var contractAbi = []; // Add Your Contract ABI here!!!
 
       // Set Contract Address
       var contractAddress = '0xa2A738A32E9c5A47d8E697AfD5Eb0592A265F6bF'; // Add Your Contract address here!!!
